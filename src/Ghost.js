@@ -2,7 +2,9 @@ import React from 'react';
 
 const Ghost = (props) => {
   return(
-    <div></div>
+    <div>
+      <img src={props.ghost} alt="" />
+    </div>
   )
 };
 
